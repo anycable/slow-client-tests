@@ -1,0 +1,14 @@
+[
+  {
+    "name": "anycable_slow",
+    "listen": "[::]:8081",
+    "upstream": "localhost:8080",
+    "enabled": true
+  },
+  {
+    "name": "centrifugo_slow",
+    "listen": "[::]:8011",
+    "upstream": "localhost:8010",
+    "enabled": true
+  }
+]
